@@ -10,6 +10,8 @@ puts "Welcome to Tic Tac Toe!"
 
 puts "make your move"
 move = gets.strip
-index = move.input_to_index
+index = input_to_index(move)
 
 move(board,index)
+
+display_board(board)
